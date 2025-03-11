@@ -2,13 +2,11 @@ Express.js App with Redis and JWT Authentication
 
 Overview
 
-This is an Express.js application that uses Redis as a database and JWT (JSON Web Tokens) for authentication. The app implements session-based authentication, storing session data in Redis without using connect-redis.
+This is an Express.js application that uses Redis as a database and JWT (JSON Web Tokens) for authentication. 
 
 Features
 
 User authentication using JWT
-
-Session storage in Redis
 
 Secure API endpoints
 
@@ -36,7 +34,6 @@ PORT=3000
 JWT_SECRET=your_secret_key
 REDIS_HOST=127.0.0.1
 REDIS_PORT=6379
-SESSION_EXPIRY=3600 # in seconds
 Running the Application
 
 Start the Redis server (if not already running):
